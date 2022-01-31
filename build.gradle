@@ -5,8 +5,9 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.apache.commons:commons-collections4:4.4'
+
     testCompile 'org.testng:testng:6.8.1'
 }
-
 
 test.useTestNG()
